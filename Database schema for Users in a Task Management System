@@ -1,0 +1,27 @@
+{
+  "_id": ObjectId("user_id"),
+  "username": "abc_123",
+  "password": "password@123",
+  "email": "abc@example.com",
+  "createdAt": ISODate("timestamp"),
+  "tasks": [       //stores all the tasks
+    {
+      "_id": ObjectId("task_id_1"),
+      "title": "Task_1",
+      "description": "Task_1 Details",
+      "dueDate": ISODate("due_date_1")
+    },
+    {
+      "_id": ObjectId("task_id_2"),
+      "title": "Task_2",
+      "description": "Task_2 Details",
+      "dueDate": ISODate("due_date_2")
+    },
+    {
+      "_id": ObjectId("task_id_3"),
+      "title": "Task_3",
+      "description": "Task_3 Details",
+      "dueDate": ISODate("due_date_3")
+    },
+           ]
+}
