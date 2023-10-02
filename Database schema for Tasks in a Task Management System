@@ -1,0 +1,9 @@
+{
+  "_id": ObjectId("task_id"),
+  "title": "Title of the Task",
+  "description": "Description of the Task",
+  "dueDate": ISODate("due_date"),
+  "status": "To Do",   // Status can be one of "To Do," "In Progress," "Done"
+  "assignedTo": ObjectId("user_id"),
+  "createdAt": ISODate("timestamp")
+}
